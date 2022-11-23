@@ -2,7 +2,7 @@
 
 {% block content %}
 
-<form action="" method="POST">{% csrf_token %}
+<form method="POST">{% csrf_token %}
     <p>Are you sure you want to delete "{{note.title}}"?</p>
     <p>This action can't be undone</p>
 
