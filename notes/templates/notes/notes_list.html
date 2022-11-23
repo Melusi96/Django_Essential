@@ -1,14 +1,6 @@
-<!DOCTYPE html>
-{% load static %}
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="{% static 'css/style.css' %}" type="text/css">
-    <title>Note List</title>
-</head>
-<body>
+{% extends "base.html" %}
+
+{% block content %}
     <h1>These are the notes: </h1>
 
     <ul title="To-Do List">
@@ -16,5 +8,4 @@
             <li class="note-li">{{note.title}}</li>
         {% endfor %}
     </ul>
-</body>
-</html>
+{% endblock %}
