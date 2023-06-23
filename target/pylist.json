@@ -1,0 +1,1 @@
+[{"package": "django", "version": "4.2.2", "deps": [{"package": "sqlparse", "version": "0.4.4"}, {"package": "typing-extensions", "version": "4.6.3"}, {"package": "asgiref", "version": "3.7.2"}]}]
