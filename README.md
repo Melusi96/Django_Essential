@@ -7,3 +7,16 @@
 
 ### To run the server, use the following command:
 ```python3 manage.py runserver```
+
+## Create an app
+```django-admin startapp *AppName*```
+## After adding a model on your app
+### run this command to add the model to the database
+```python3 manage.py makemigrations```
+### run this command after makemigrations
+```python3 manage.py migrate```
+
+## Admin username and passwords
+Username: admin
+Password: admin
+
